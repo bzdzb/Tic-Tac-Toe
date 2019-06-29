@@ -37,7 +37,7 @@ nav {
   opacity: .6;
   padding: 0;
   position: relative;
-  top: 8px;
+  top: 13px;
   width: 102px;
 }
 
@@ -79,6 +79,7 @@ h1 {
   text-shadow: 0 8px 0 #000,0 -8px 0 #000,-8px 0 0 #000,8px 0 0 #000,8px 8px 0 #000,-8px -8px 0 #000,8px -8px 0 #000,-8px 8px 0 #000;
   text-stroke: 5px #ccc;
   width: 665px;
+  text-align: center;
 }
 
 h1 span {
@@ -135,7 +136,7 @@ p {
   opacity: 0;
   text-shadow: 0 5px 0 #000,0 -5px 0 #000,-5px 0 0 #000,5px 0 0 #000,5px 5px 0 #000,-5px -5px 0 #000,5px -5px 0 #000,-5px 5px 0 #000;
   text-stroke: 3px #f66;
-  width: 322px;
+  width: 340px;
 }
 
 .error { color: #f66 }
@@ -302,7 +303,7 @@ p {
   overflow-y: scroll;
   padding: 0 20px;
   position: absolute;
-  width: 100px;
+  width: 110px;
 }
 
 #log:hover {
