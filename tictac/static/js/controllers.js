@@ -36,7 +36,8 @@
       return (function() {
         $scope.ai_msg_rendering = true;
         box
-          .fadeTo('fast', 0.8, function() {
+          .animate({"z-index": "99"}, 0)
+          .fadeTo('fast', 1.0, function() {
             for (var i = 0, len = msg.length; i < len; i++) {
               teletype_keypress(msg, i, box);
             }
@@ -45,7 +46,8 @@
           .text('')
           .fadeTo('fast', 0.0, function() {
             $scope.ai_msg_rendering = false;
-          });
+          })
+          .animate({"z-index": "-99"}, 0);
       });
     };
 
