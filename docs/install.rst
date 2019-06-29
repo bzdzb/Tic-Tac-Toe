@@ -157,7 +157,7 @@ Use Homebrew or MacPorts if the build process complains of a missing library.
 
     $ cd $INSTALL_DIR/$TTT_PROJ
     $ pip install -r requirements/bin.txt
-    $ pip install -r requirements/dev.txt
+    $ CFLAGS='-std=c99' pip install -r requirements/dev.txt
 
     As you edit your `requirements.txt` files, you can run those last commands again;
     `pip` will realise which packages you've added and will ignore those already installed.
